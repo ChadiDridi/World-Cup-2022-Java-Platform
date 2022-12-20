@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="AP" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.LoginController">
+   <children>
+      <Label layoutX="128.0" layoutY="41.0" text="Bienvenue au coupe du Monde !" textFill="#f70d0d">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="logo" fitHeight="123.0" fitWidth="102.0" layoutX="14.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/quatar.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="123.0" fitWidth="87.0" layoutX="500.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/quatar1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="spectateur" layoutX="80.0" layoutY="126.0" mnemonicParsing="false" onAction="#connectSpect" prefHeight="107.0" prefWidth="219.0" style="-fx-background-color: #FF0000;" text="Spectateur" textFill="WHITE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="joueur" layoutX="299.0" layoutY="126.0" mnemonicParsing="false" onAction="#connectJoueur" prefHeight="107.0" prefWidth="208.0" style="-fx-background-color: #1E90FF;" text="Joueur" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="res" layoutX="80.0" layoutY="233.0" mnemonicParsing="false" onAction="#connectRes" prefHeight="107.0" prefWidth="219.0" style="-fx-background-color: #1E90FF;" text="Responsable Equipe" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="admin" layoutX="299.0" layoutY="233.0" mnemonicParsing="false" onAction="#connectAdmin" prefHeight="107.0" prefWidth="208.0" style="-fx-background-color: #FF0000;" text="Admin" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

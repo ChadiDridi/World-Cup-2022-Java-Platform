@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="AP" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.LoginResponsableEquipeController">
+   <children>
+      <Label layoutX="40.0" layoutY="21.0" text="Connexion Responsable Equipe" textFill="#ff1100">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="homeImg" fitHeight="56.0" fitWidth="69.0" layoutX="577.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/coupe1.png.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="245.0" fitWidth="174.0" layoutX="14.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/coupeMonde.png.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="identifiant" layoutX="204.0" layoutY="131.0" prefHeight="25.0" prefWidth="251.0" promptText="Identifiant" />
+      <PasswordField fx:id="mdp" layoutX="204.0" layoutY="175.0" prefHeight="25.0" prefWidth="251.0" promptText="Mot de passe" />
+      <Button fx:id="btnRes" layoutX="204.0" layoutY="224.0" mnemonicParsing="false" onAction="#connecterRs" prefHeight="25.0" prefWidth="251.0" style="-fx-background-color: #FF0000;" text="connexion" textFill="#faf3f3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fill="#fa3219" layoutX="512.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Retour" wrappingWidth="114.40000000000009">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnRetour" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="512.0" layoutY="337.0" mnemonicParsing="false" onAction="#home" opacity="0.0" prefHeight="38.0" prefWidth="114.0" />
+      <Label layoutX="236.0" layoutY="265.0" prefHeight="39.0" prefWidth="162.0" text="Vous n'avez pas un compte? " textFill="#1d1d1e" />
+      <Label layoutX="202.0" layoutY="320.0" text="remplissez vos info puis Cliquer sur" textFill="#242425" />
+      <Label layoutX="388.0" layoutY="320.0" text=" CREER !" textFill="#4d0eeb" />
+      <Button fx:id="creation" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="388.0" layoutY="310.0" mnemonicParsing="false" onAction="#creerRes" opacity="0.0" prefHeight="38.0" prefWidth="56.0" />
+   </children>
+</AnchorPane>

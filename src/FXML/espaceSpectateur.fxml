@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="AP" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.EspaceSpectateurController">
+   <children>
+      <Pane layoutX="-1.0" prefHeight="404.0" prefWidth="159.0" style="-fx-background-color: #656565;">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="146.0" layoutX="5.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/coupe-du-monde.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="matchRejoindre" layoutX="20.0" layoutY="238.0" prefHeight="25.0" prefWidth="120.0" promptText="match a rejoindre " />
+            <TextField fx:id="equipe" layoutX="18.0" layoutY="197.0" prefHeight="25.0" prefWidth="120.0" promptText="equipe">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+            <Button fx:id="modifier" layoutX="33.0" layoutY="329.0" mnemonicParsing="false" onAction="#modifierTr" prefHeight="38.0" prefWidth="94.0" style="-fx-background-color: #FF0000;" text="Acheter" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Button>
+            <Text fill="#faf8f8" layoutX="20.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Ticket  : ">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="497.0" prefHeight="404.0" prefWidth="159.0" style="-fx-background-color: #656565;">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="146.0" layoutX="5.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/coupe-du-monde.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="dateFin" layoutX="18.0" layoutY="278.0" prefHeight="25.0" prefWidth="120.0" promptText="dateFin" />
+            <TextField fx:id="matchs" layoutX="18.0" layoutY="197.0" prefHeight="25.0" prefWidth="120.0" promptText="matchs" />
+            <TextField fx:id="dateDebut" layoutX="18.0" layoutY="235.0" prefHeight="25.0" prefWidth="120.0" promptText="dateDebut" />
+            <TextField fx:id="categorie" layoutX="17.0" layoutY="155.0" prefHeight="25.0" prefWidth="120.0" promptText="categorie">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+            <Button fx:id="ajouter" layoutX="18.0" layoutY="325.0" mnemonicParsing="false" onAction="#ajouterTr" prefHeight="39.0" prefWidth="101.0" style="-fx-background-color: #FF0000;" text="Acheter" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua" size="19.0" />
+               </font>
+            </Button>
+            <Text fill="#f2f1f1" layoutX="2.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Abonnement :" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Label layoutX="240.0" layoutY="43.0" prefHeight="55.0" prefWidth="186.0" text="Gerer votre paiement " textFill="#ff2c00">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="homeImg1" fitHeight="58.0" fitWidth="55.0" layoutX="169.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/coupe1.png.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="homeImg" fitHeight="58.0" fitWidth="55.0" layoutX="443.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/coupe1.png.png" />
+         </image>
+      </ImageView>
+      <Text fill="#201f1f" layoutX="204.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="choisisez votre methode de paiement adequate" wrappingWidth="272.00003662109384">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#f40e0e" layoutX="383.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Retour" wrappingWidth="93.58593749999994">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="homeBtn" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="383.0" layoutY="354.0" mnemonicParsing="false" onAction="#home" opacity="0.0" prefHeight="38.0" prefWidth="86.0" />
+      <Label fx:id="lab" layoutX="178.0" layoutY="251.0" prefHeight="91.0" prefWidth="297.0" textFill="#1b09eb" />
+   </children>
+</AnchorPane>
