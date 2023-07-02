@@ -1,0 +1,1 @@
+# World-Cup-2022-Java-Platoform. This project is a management project . It has 4 essential actors : admin , club representor ,players, country's representor. It's a world cup's platform management using Java and Scene Builder for the front-end.
