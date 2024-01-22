@@ -38,6 +38,7 @@ Exceptions are well sheduled in the page by Java Alert windows.
 
 Admin page after login:
 
+<img src="https://drive.google.com/file/d/13q98oQKc-Xe6UPsZbRABQjlMVrexMo97/view?usp=drive_link" alt="Admin page alt">
 
 
 ## Optimizations
