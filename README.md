@@ -29,6 +29,15 @@ To start the app run the main Java Class.
 
 
 ## Application
+Starting app page : 
+
+[Private picture](https://github.com/ChadiDridi/private-repo-screenshot/main/login.png)
+
+Exceptions are well sheduled in the page by Java Alert windows. 
+
+
+Admin page after login:
+
 
 
 ## Optimizations
