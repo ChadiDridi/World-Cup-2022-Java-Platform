@@ -31,14 +31,15 @@ To start the app run the main Java Class.
 ## Application
 Starting app page : 
 
-[Private picture](https://raw.githubusercontent.com/ChadiDridi/private-repo-screenshot/main/login.png)
+<img src="https://github.com/ChadiDridi/private-repo-screenshot/assets/94867403/1efadc91-4cf1-4f68-9edd-31631e0cb5fd" alt="">
 
 Exceptions are well sheduled in the page by Java Alert windows. 
 
+<img src="https://github.com/ChadiDridi/private-repo-screenshot/assets/94867403/7632aa70-a7bc-4f9f-a144-c527956389a5" alt="">
 
 Admin page after login:
 
-<img src="https://drive.google.com/file/d/13q98oQKc-Xe6UPsZbRABQjlMVrexMo97/view?usp=drive_link" alt="">
+<img src="https://github.com/ChadiDridi/private-repo-screenshot/assets/94867403/4e6755e0-52cf-4ef1-bea9-75b5eb4599ea" alt="">
 
 
 ## Optimizations
